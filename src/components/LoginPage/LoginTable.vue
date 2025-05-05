@@ -1,15 +1,15 @@
 <template>
-  <h1>Скоростная память</h1>
+  <h1>СКОРОСТНАЯ ПАМЯТЬ</h1>
   <div class="login-container">
     <div class="login-card">
-      <h2>Вход</h2>
+      <h2>ВХОД</h2>
       <form @submit.prevent="handleLogin">
         <div class="form-group">
-          <label for="username">Логин:</label>
+          <label for="username">ЛОГИН:</label>
           <input type="text" id="username" v-model="username" required placeholder="Введите логин" />
         </div>
         <div class="form-group">
-          <label for="password">Пароль:</label>
+          <label for="password">ПАРОЛЬ:</label>
           <input type="password" id="password" v-model="password" required placeholder="Введите пароль" />
         </div>
         <button type="submit" class="login-button">Войти</button>
@@ -60,36 +60,40 @@ const goToRegister = () => {
 }
 
 .login-card {
-  background-color: #494848; /* Серый фон для окна ввода */
+  background-color: #fff5a0; /* Серый фон для окна ввода */
   padding: 50px;
   border-radius: 20px; /* Правильное закругление углов */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Небольшая тень для эффекта */
-  width: 500px; /* Ширина окна */
+  box-shadow: 0 0 10px rgba(38, 38, 38, 0.5); /* Небольшая тень для эффекта */
+  width: 700px; /* Ширина окна */
   text-align: center; /* Центрируем весь текст */
 }
 h1 {
   font-family: 'Inter', sans-serif;
   text-align: center;
+  font-size: 55px;
   padding-top: 100px;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
 }
 
 h2 {
   font-family: 'Inter', sans-serif; 
-  padding-bottom: 15px;
-  color: white;
+  font-size: 50px;
+  padding-bottom: 50px;
+  color: black;
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 label {
   font-family: 'Inter', sans-serif; 
-  color: white;
+
+  color: black;
+  font-size: 30px;
   display: block; /* Исправлено на block */
-  margin-bottom: 15px;
-  font-weight: 500; /* Более выразительное значение */
+  margin-bottom: 30px;
+  font-weight: 700; /* Более выразительное значение */
 }
 
 input {
@@ -104,7 +108,7 @@ input {
   font-family: 'Inter', sans-serif; 
   width: 100%;
   padding: 10px;
-  background-color: #025ec1; /* Цвет фона кнопки входа */
+  background-color: #1b89ff; /* Цвет фона кнопки входа */
   color: #fff; /* Цвет текста кнопки */
   border: none;
   border-radius: 4px;
@@ -120,7 +124,7 @@ input {
   font-family: 'Inter', sans-serif; 
   width: 100%;
   padding: 10px;
-  background-color: #03721f; /* Зеленый цвет для кнопки регистрации */
+  background-color: #24b247; /* Зеленый цвет для кнопки регистрации */
   color: #fff; /* Цвет текста кнопки */
   border: none;
   border-radius: 4px;
