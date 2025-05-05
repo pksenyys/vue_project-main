@@ -54,7 +54,7 @@
   .navigation-menu {
     display: flex;
     justify-content: space-between;
-    background-color: #484646;
+    background-color: #fff5a0;
     padding: 20px 10px; /* Уменьшены отступы для лучшего вида */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
@@ -62,8 +62,10 @@
   button {
     flex: 1;
     padding: 10px;
-    font-size: 20px; /* Увеличен размер шрифта */
-    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 25px; /* Увеличен размер шрифта */
+    color: black;
     background-color: transparent;
     border: none;
     cursor: pointer;
