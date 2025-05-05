@@ -91,27 +91,28 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 2px solid #363636;
+  border: 2px solid #eed709;
   border-radius: 10px;
-  background-color: #f0f0f0;
+  background-color: #fffcfc;
   padding: 20px;
 }
 
 .help-button {
+  
   flex: 1 1 40%;
   margin: 10px;
   padding: 10px;
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  background-color: #7c7c7c;
-  color: white;
+  background-color: #f8f067c8;
+  color: black;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .help-button:hover {
-  background-color: #272727;
+  background-color: #f8a837;
 }
 
 .feedback-button {
@@ -121,7 +122,7 @@ h2 {
 .text-container {
   margin-top: 20px; /* Отступ сверху для текстового контейнера */
   padding: 20px; /* Внутренние отступы для текстового контейнера */
-  border: 2px solid #363636; /* Рамка вокруг текстового контейнера */
+  border: 2px solid #000000; /* Рамка вокруг текстового контейнера */
   border-radius: 10px; /* Скругление углов текстового контейнера */
   background-color: #f9f9f9; /* Цвет фона текстового контейнера */
 }
@@ -146,7 +147,7 @@ h2 {
 }
 
 .back-button:hover {
-  background-color: #949494;
+  background-color: #e9b021;
 }
 
 /* Стили для кнопки "На главную" */
@@ -154,11 +155,11 @@ h2 {
   
   display: block; /* Блок, чтобы занять всю ширину */
   margin:auto;
-  background-color: #5a5a5a; /* Цвет фона */
-  margin-top: 59px; /* Отступ сверху для кнопки "На главную" */
+  background-color: #f9da90; /* Цвет фона */
+  margin-top: 60px; /* Отступ сверху для кнопки "На главную" */
 }
 
 .home-button:hover {
-  background-color: #3b3b3b; /* Цвет фона при наведении */
+  background-color: #f9cc51; /* Цвет фона при наведении */
 }
 </style>
